@@ -6,8 +6,6 @@ Prognostics and health management is an important topic in industry for predicti
 
 Engine degradation simulation was carried out using C-MAPSS to simulate different combinations of operational conditions and fault modes. Records several sensor channels to characterize fault evolution
 
-![image.png](attachment:image.png)
-
 ### EXPERIMENTAL SCENARIO
 
 Data sets consists of multiple multivariate time series. Each data set is further divided into training and test subsets. Each time series is from a different engine i.e., the data can be considered to be from a fleet of engines of the same type. Each engine starts with different degrees of initial wear and manufacturing variation which is unknown to the user. This wear and variation is considered normal, i.e., it is not considered a fault condition. There are three operational settings that have a substantial effect on engine performance. These settings are also included in the data. The data is contaminated with sensor noise.
